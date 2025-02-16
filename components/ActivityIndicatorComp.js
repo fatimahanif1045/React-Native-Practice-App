@@ -1,7 +1,7 @@
 import { View, Text, ActivityIndicator, Button } from 'react-native'
 import React, { useState } from 'react'
 
-const ActivityIndicatorCopm = () => {
+const ActivityIndicatorComp = () => {
     const [show, setShow] = useState(false);
     function displayLoader() {
         setShow(true)
@@ -21,4 +21,4 @@ const ActivityIndicatorCopm = () => {
     )
 }
 
-export default ActivityIndicatorCopm
+export default ActivityIndicatorComp
